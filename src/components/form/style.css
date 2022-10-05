@@ -1,0 +1,43 @@
+.Form {
+    background-color: #eee;
+    border-radius: 12px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.InputBox {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    max-width: 700px;
+}
+
+.InputText {
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    padding: 0 12px;
+    width: 240px;
+}
+
+.InputLabel {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Btn {
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    height: 40px;
+    width: 140px;
+}
+
+.Form, .InputBox {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
